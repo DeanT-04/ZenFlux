@@ -1,5 +1,58 @@
-# Bun
-.bun
+# ZenFlux .gitignore
+# Last updated: [Today's Date]
+
+# --- Bun ---
+.bun/
+bun.lockb
+
+# --- Node.js ---
 node_modules/
 dist/
+*.tsbuildinfo
+
+# --- Database ---
+*.db
+*.db-journal
+
+# --- Environment Files ---
 .env
+.env.local
+.env.*.local
+
+# --- Windows ---
+Thumbs.db
+[Dd]esktop.ini
+*.lnk
+
+# --- Logs ---
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+debug/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Temp ---
+temp/
+*.tmp
+*.bak
+
+# --- Testing ---
+coverage/
+.nyc_output/
+
+# --- Miscellaneous ---
+.DS_Store
+*.local
+.cache/
+dump.rdb

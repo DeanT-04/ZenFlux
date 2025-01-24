@@ -2,6 +2,14 @@
   "name": "core-engine",
   "scripts": {
     "start": "bun run --hot app.ts"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.10",
+    "axios": "^1.7.9",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4"
   }
-  
 }

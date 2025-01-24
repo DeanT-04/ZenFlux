@@ -1,35 +1,46 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// ui/src/App.tsx
+import ReactFlow, { Controls, Background } from 'reactflow';
+import 'reactflow/dist/style.css';
+import ApiNode from './components/ApiNode';
+import { WorkflowNode, WorkflowEdge } from './hooks/userWorkflow';
 
-function App() {
-  const [count, setCount] = useState(0)
+// Define node types
+const nodeTypes = {
+  api: ApiNode,
+};
 
+// Initial nodes with proper typing
+const initialNodes: WorkflowNode[] = [
+  { 
+    id: '1', 
+    position: { x: 0, y: 0 }, 
+    data: { label: 'Trigger' },
+    type: 'input'
+  },
+  { 
+    id: '2', 
+    position: { x: 200, y: 0 }, 
+    data: { 
+      label: 'API Call',
+      url: '/proxy/jsonplaceholder.typicode.com/todos/1' 
+    },
+    type: 'api'
+  },
+];
+
+const initialEdges: WorkflowEdge[] = [{ id: 'e1-2', source: '1', target: '2' }];
+
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div style={{ width: '100vw', height: '100vh' }}>
+      <ReactFlow 
+        nodes={initialNodes}
+        edges={initialEdges}
+        nodeTypes={nodeTypes}
+      >
+        <Background />
+        <Controls />
+      </ReactFlow>
+    </div>
+  );
 }
-
-export default App

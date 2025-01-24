@@ -3,9 +3,13 @@
   "scripts": {
     "start:core": "cd core-engine && bun start",
     "start:ui": "cd ui && bun dev",
-    "start": "concurrently \"bun run start:core\" \"bun run start:ui\""
+    "start": "concurrently --kill-others-on-fail \"bun run start:core\" \"bun run start:ui\""
   },
   "devDependencies": {
+    "@types/axios": "^0.14.4",
     "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
   }
 }
