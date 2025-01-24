@@ -1,0 +1,7 @@
+{
+  "name": "core-engine",
+  "scripts": {
+    "start": "bun run --hot app.ts"
+  }
+  
+}

@@ -1,0 +1,11 @@
+{
+  "name": "zenflux",
+  "scripts": {
+    "start:core": "cd core-engine && bun start",
+    "start:ui": "cd ui && bun dev",
+    "start": "concurrently \"bun run start:core\" \"bun run start:ui\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

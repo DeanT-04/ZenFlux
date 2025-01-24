@@ -1,8 +1,5 @@
-# From https://github.com/github/gitignore/blob/main/Node.gitignore
+# Bun
+.bun
 node_modules/
-.env
-*.log
 dist/
-# Docker
-*.dockerignore
-!.dockerignore
+.env
