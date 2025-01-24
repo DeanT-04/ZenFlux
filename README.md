@@ -50,20 +50,20 @@ bun run dev
 
 ### Color Palette
 #### Light Mode
-| Role          | Hex       | Preview                      |
-|---------------|-----------|------------------------------|
-| Primary       | `#5AC8D8` | ![#5AC8D8](https://via.placeholder.com/40/5AC8D8/000000?text=+) |
-| Secondary     | `#FF6B6B` | ![#FF6B6B](https://via.placeholder.com/40/FF6B6B/000000?text=+) |
-| Background    | `#F9FBFD` | ![#F9FBFD](https://via.placeholder.com/40/F9FBFD/000000?text=+) |
-| Accent        | `#A66EFA` | ![#A66EFA](https://via.placeholder.com/40/A66EFA/000000?text=+) |
+| Role          | Hex       | Preview |
+|---------------|-----------|---------|
+| Primary       | `#5AC8D8` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%235AC8D8' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
+| Secondary     | `#FF6B6B` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23FF6B6B' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
+| Background    | `#F9FBFD` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23F9FBFD' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
+| Accent        | `#A66EFA` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23A66EFA' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
 
 #### Dark Mode
-| Role          | Hex       | Preview                      |
-|---------------|-----------|------------------------------|
-| Primary       | `#4ECDC4` | ![#4ECDC4](https://via.placeholder.com/40/4ECDC4/000000?text=+) |
-| Secondary     | `#FF7E67` | ![#FF7E67](https://via.placeholder.com/40/FF7E67/000000?text=+) |
-| Background    | `#1A1E26` | ![#1A1E26](https://via.placeholder.com/40/1A1E26/000000?text=+) |
-| Accent        | `#9D7AFF` | ![#9D7AFF](https://via.placeholder.com/40/9D7AFF/000000?text=+) 
+| Role          | Hex       | Preview |
+|---------------|-----------|---------|
+| Primary       | `#4ECDC4` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%234ECDC4' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
+| Secondary     | `#FF7E67` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23FF7E67' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
+| Background    | `#1A1E26` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%231A1E26' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
+| Accent        | `#9D7AFF` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%239D7AFF' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
 
 ## Architecture 📐
 ```mermaid
