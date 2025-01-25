@@ -56,3 +56,5 @@ coverage/
 *.local
 .cache/
 dump.rdb
+
+colour pallete.md

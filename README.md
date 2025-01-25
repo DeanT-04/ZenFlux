@@ -1,6 +1,3 @@
-Here's a polished README.md format incorporating all aspects of the project:
-
-```markdown
 # ZenFlux ⚡🧘
 
 **Open-Source Workflow Automation with Zen-Simplicity and Cost Transparency**
@@ -49,21 +46,26 @@ bun run dev
 ## Design System 🎨
 
 ### Color Palette
+
 #### Light Mode
-| Role          | Hex       | Preview |
-|---------------|-----------|---------|
-| Primary       | `#5AC8D8` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%235AC8D8' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
-| Secondary     | `#FF6B6B` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23FF6B6B' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
-| Background    | `#F9FBFD` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23F9FBFD' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
-| Accent        | `#A66EFA` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23A66EFA' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
+
+| Role       | Hex       | Preview |
+|------------|-----------|---------|
+| Primary    | `#5AC8D8` | $${\color{#5AC8D8}████████}$$ |
+| Secondary  | `#FF6B6B` | $${\color{#FF6B6B}████████}$$ |
+| Background | `#F9FBFD` | $${\color{#F9FBFD}████████}$$ |
+| Accent     | `#A66EFA` | $${\color{#A66EFA}████████}$$ |
 
 #### Dark Mode
-| Role          | Hex       | Preview |
-|---------------|-----------|---------|
-| Primary       | `#4ECDC4` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%234ECDC4' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
-| Secondary     | `#FF7E67` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%23FF7E67' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
-| Background    | `#1A1E26` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%231A1E26' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
-| Accent        | `#9D7AFF` | <img src="data:image/svg+xml;charset=utf8,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='40' height='40' fill='%239D7AFF' stroke='%23000' stroke-width='1'/%3E%3C/svg%3E" width="40" height="40"> |
+
+| Role       | Hex       | Preview |
+|------------|-----------|---------|
+| Primary    | `#4ECDC4` | $${\color{#4ECDC4}████████}$$ |
+| Secondary  | `#FF7E67` | $${\color{#FF7E67}████████}$$ |
+| Background | `#1A1E26` | $${\color{#1A1E26}████████}$$ |
+| Accent     | `#9D7AFF` | $${\color{#9D7AFF}████████}$$ |
+
+
 
 ## Architecture 📐
 ```mermaid
