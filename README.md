@@ -49,21 +49,22 @@ bun run dev
 
 #### Light Mode
 
-| Role       | Hex       | Preview |
-|------------|-----------|---------|
-| Primary    | `#5AC8D8` | $${\color{#5AC8D8}████████}$$ |
-| Secondary  | `#FF6B6B` | $${\color{#FF6B6B}████████}$$ |
-| Background | `#F9FBFD` | $${\color{#F9FBFD}████████}$$ |
-| Accent     | `#A66EFA` | $${\color{#A66EFA}████████}$$ |
+| Role       | Hex       | Preview | Use Cases |
+|------------|-----------|---------|-----------|
+| Primary    | `#5AC8D8` | $${\color{#5AC8D8}████████}$$ | Buttons, Primary Actions, Key UI Elements |
+| Secondary  | `#FF6B6B` | $${\color{#FF6B6B}████████}$$ | Alerts, Warnings, Error States |
+| Background | `#F9FBFD` | $${\color{#F9FBFD}████████}$$ | Page Background, Content Areas |
+| Accent     | `#A66EFA` | $${\color{#A66EFA}████████}$$ | Highlights, Icons, Decorative Elements |
 
 #### Dark Mode
 
-| Role       | Hex       | Preview |
-|------------|-----------|---------|
-| Primary    | `#4ECDC4` | $${\color{#4ECDC4}████████}$$ |
-| Secondary  | `#FF7E67` | $${\color{#FF7E67}████████}$$ |
-| Background | `#1A1E26` | $${\color{#1A1E26}████████}$$ |
-| Accent     | `#9D7AFF` | $${\color{#9D7AFF}████████}$$ |
+| Role       | Hex       | Preview | Use Cases |
+|------------|-----------|---------|-----------|
+| Primary    | `#4ECDC4` | $${\color{#4ECDC4}████████}$$ | Buttons, Primary Actions, Key UI Elements |
+| Secondary  | `#FF7E67` | $${\color{#FF7E67}████████}$$ | Alerts, Warnings, Error States |
+| Background | `#1A1E26` | $${\color{#1A1E26}████████}$$ | Page Background, Content Areas |
+| Accent     | `#9D7AFF` | $${\color{#9D7AFF}████████}$$ | Highlights, Icons, Decorative Elements |
+
 
 
 

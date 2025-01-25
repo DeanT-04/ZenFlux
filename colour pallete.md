@@ -41,3 +41,22 @@ Balancing Zen-like serenity with dynamic "flux" energy, this palette merges calm
 - **Contrast**: High legibility in both modes (AAA compliance for text).  
 
 Pair with minimalist typography and subtle motion animations for a tool that feels *powerful yet approachable*.
+
+
+
+## Color System 🎨  
+### Light Mode  
+```markdown
+🟦 Primary: `#5AC8D8`    
+🟥 Secondary: `#FF6B6B`  
+⬜ Background: `#F9FBFD` 
+🟪 Accent: `#A66EFA`
+```
+### Dark Mode
+
+```
+🟩 Primary: `#4ECDC4`     
+🟧 Secondary: `#FF7E67`  
+⬛ Background: `#1A1E26`  
+🟪 Accent: `#9D7AFF`
+```
